@@ -57,3 +57,5 @@ Route::get('/emp/{employee}', function(Employee $employee){
 Route::get('/emp/transaction/{id}', [EmployeeController::class , 'saveinTransaction']);
 
 Route::get('/emp/transactions/{id}', [TransactionController::class , 'allTransaction']);
+
+// Changes
